@@ -1,0 +1,1 @@
+export const CardWidth = 320;

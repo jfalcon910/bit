@@ -1,0 +1,17 @@
+@use '../../scss/includes/colors' as color;
+@use '../../scss/includes/mixins' as mix;
+
+.bits_navbar{
+    // border-bottom: 1px solid color.$secondary-color;
+    @media(max-width: #{mix.$mobile-max-width}){
+        border-bottom: 1px solid color.$secondary-color;
+    }
+}
+
+.dropdown-menu.show{
+    margin-left: -20px !important;
+}
+
+.offcanvas-default{
+    background: color.$pink-color !important;
+}

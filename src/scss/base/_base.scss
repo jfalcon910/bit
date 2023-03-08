@@ -1,0 +1,51 @@
+@use '../includes/colors' as color;
+@import '../includes/mixins';
+html, body, #root{
+    font-family: var(--font-poppins);
+    color: color.$blue-color !important;
+    background: color.$red-light-color;
+}
+button{
+    margin: 2px !important;
+    border-radius: 4px !important;
+}
+a{
+    text-decoration: none;
+}
+._d_flex__left{
+    @include _d_flex(flex-start);
+}
+._d_flex__center{
+    @include _d_flex(center);
+}
+._d_flex__right{
+    @include _d_flex(flex-end);
+}
+._d_flex__between{
+    @include _d_flex(space-between);
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+._cl_white{
+    color: color.$white-color !important;
+}
+._cl_primary{
+    color: color.$primary-color !important;
+}
+._cl_blue{
+    color: color.$blue-color !important;
+}
+.bold{
+    font-weight: bold !important;
+}
+.navbar-toggler{
+    border: none !important;
+}
+.button_blue{
+    background: color.$blue-color !important;
+    color: color.$white-color !important;
+}

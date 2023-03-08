@@ -1,0 +1,44 @@
+@use '../../scss/includes/colors' as color;
+@use '../../scss/includes/variable' as variable;
+@use '../../scss/includes/mixins' as mix;
+
+._login{
+    padding: variable.$default-padding-form;
+    border-radius: 3px;
+    @include mix.form-separation-top-desktop;
+    &__ctlogo{
+        width: 100%;
+        &__logo{
+            width: 100%;
+            max-width: 200px;
+        }
+    }
+    &__title{
+        width: 100%;
+        text-align: center;
+    }
+    &__wrapper{
+        padding: 5px;
+    }
+    &__form{
+        &__cl_white{
+            color: color.$blue-color;
+            height: 2px;
+        }
+        &__o_separator{
+            text-align: center;
+            padding: 2px 5px;
+            background-color: color.$red-light-color;
+            width: auto !important;
+            top: 7px;
+        }
+        label{
+            font-size: variable.$default-font-size !important;
+        }
+        .form-control{
+            padding: 15px !important;
+            border-radius: 8px !important;
+            color: color.$primary-color;
+        }
+    }
+}

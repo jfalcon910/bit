@@ -1,0 +1,34 @@
+@use '../../scss/includes/colors' as color;
+._title{
+    text-align: center;
+    margin-top: 1rem;
+}
+._elements{
+    background-color: color.$secondary-color;
+    margin-top: 60px;
+    cursor: pointer;
+    &__figure{
+        margin: 0;
+        padding: 30px;
+        &__img{
+            width: 100%;
+            max-width: 350px;
+        }
+        &__text{
+            width: 100%;
+            text-align: center;
+            font-size: 1.6rem;
+            color: color.$white-color;
+        }
+    }
+
+    // &:hover{
+    //     background-color: color.$primary-color;
+    //     animation: name duration timing-function delay iteration-count direction fill-mode;
+    //     // add transition
+    //     transition: all 0.5s ease-in-out;
+    //     // add transform
+    //     transform: scale(1.02);
+    // }
+}
+// ._elements:hover ._elements__figure__text{ color: color.$wite-color; }

@@ -1,0 +1,51 @@
+{
+  "short_name": "Bits en inglés",
+  "name": "Bits de inteligencia en inglés",
+  "icons": [
+    {
+      "src": "logo.ico",
+      "sizes": "200x200",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo16x16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "logo24x24.png",
+      "type": "image/png",
+      "sizes": "24x24"
+    },
+    {
+      "src": "logo32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "logo64x64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "logo192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo256x256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "logo512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0200f2",
+  "orientation": "portrait",
+  "background_color": "#ffffff"
+}

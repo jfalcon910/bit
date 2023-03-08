@@ -1,0 +1,30 @@
+//use colors
+@use '../../scss/includes/colors' as color;
+.greeting{
+    text-align: center;
+    -webkit-animation: 1.5s ease 0s normal forwards 1 fadein;
+    animation: 1.5s ease 0s normal forwards 1 fadein;
+    font-size: 1rem;
+    color: color.$secondary-color;
+}
+
+.user-name{
+    text-align: center;
+    -webkit-animation: 3s ease 0s normal forwards 1 fadein;
+    animation: 3s ease 0s normal forwards 1 fadein;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    color: color.$secondary-color;
+}
+
+@keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}

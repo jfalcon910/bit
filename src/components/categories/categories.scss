@@ -1,0 +1,38 @@
+@use '../../scss/includes/colors' as color;
+
+._categories{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: color.$bisque-color;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+    &__figure{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        &__img{
+            width: 100%;
+            max-width: 200px;
+        }
+        &__text{
+            width: 100%;
+            max-width: 200px;
+            text-align: center;
+            font-size: 1.6rem;
+        }
+    }
+    &:hover{
+        background-color: color.$secondary-color;
+        animation: name duration timing-function delay iteration-count direction fill-mode;
+        // add transition
+        transition: all 0.5s ease-in-out;
+        // add transform
+        transform: scale(1.1);
+    }
+}
+._categories:hover ._categories__figure__text{ color: color.$white-color; }

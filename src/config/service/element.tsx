@@ -1,0 +1,1 @@
+export const ElementsByCategory = `${process.env.REACT_APP_PUBLIC_SERVICE_URL}/element/category`;

@@ -1,0 +1,19 @@
+//use colors
+@use '../../../scss/includes/colors' as color;
+._paneladmin{
+    &__title{
+        color: color.$primary-color;
+        text-align: center;
+    }
+    &__links{
+        &__link{
+            display: block;
+            padding: 30px 15px;
+            cursor: pointer;
+            border: 1px solid color.$primary-color;
+            margin: 1px 5px;
+            text-decoration: none;
+            color: color.$primary-color;;
+        }
+    }
+}
